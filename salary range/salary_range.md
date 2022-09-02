@@ -16,3 +16,4 @@ print(f"tax is {output}")
 ##
 
 ## Results
+![](salary_range.png)
