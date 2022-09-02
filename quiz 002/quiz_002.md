@@ -25,3 +25,4 @@ print (f"The solution is {output}")
 ##
 
 ## Results
+![](quiz002.png)
