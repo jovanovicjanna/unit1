@@ -27,4 +27,4 @@ print('Hi ' + name)
 ```
 
 #### test results
-![](hijohn.png)
+![](hijohn1.png)
