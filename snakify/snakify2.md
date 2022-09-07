@@ -14,6 +14,8 @@ print (last_digit)
 
 #### test results
 
+![](lastdigit.png)
+
 ### Tens digit
 
 #### code
@@ -25,6 +27,8 @@ print(tens_digit)
 ```
 
 #### test results
+
+![](tens.png)
 
 ### sum of digits
 
@@ -40,6 +44,8 @@ print(sum)
 ```
 #### test results
 
+![](sum.png)
+
 ### fractional part
 
 #### code
@@ -49,6 +55,8 @@ number = float(input())
 print(number%1)
 ```
 #### test results
+
+![](fractional_part.png)
 
 ### car route
 
@@ -62,3 +70,5 @@ days = ceil (m/n)
 print (days)
 ```
 #### test results
+
+![](car_route.png)
