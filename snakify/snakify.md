@@ -1,6 +1,6 @@
-# snakify 
+# Snakify UNIT 1 
 
-## Unit 1: Input, print and numbers 
+## Input, print and numbers 
 
 ### Sum of three numbers
 
