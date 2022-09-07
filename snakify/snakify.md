@@ -40,6 +40,7 @@ print(square)
 ```
 
 #### test results
+![](square.png)
 
 ### Area of right-angled triangle
 
@@ -53,6 +54,7 @@ print(area)
 ```
 
 #### test results
+![](area.png)
 
 ### Hello, Harry!
 
@@ -64,6 +66,7 @@ print('Hello, ' + name + '!')
 ```
 
 #### test results
+![](helloharry.png)
 
 ### Apple sharing
 
@@ -79,6 +82,7 @@ print(r)
 ```
 
 #### test results
+![](applesharing.png)
 
 ### Previous and next
 
@@ -91,6 +95,7 @@ print("The previous number for the number " + str(number) + " is " + str(number-
 ```
 
 #### test results
+![](previousandnext.png)
 
 ### Two timestamps
 
@@ -109,6 +114,7 @@ print(s)
 ```
 
 #### test results
+![](twotimestamps.png)
 
 ### School desks
 
@@ -120,7 +126,4 @@ print(a//2 + b//2 + c//2 + a%2 + b%2 + c%2)
 ```
 
 #### test results
-
-
-
-
+![](schooldesks.png)
