@@ -16,6 +16,42 @@ print (last_digit)
 
 ![](lastdigit.png)
 
+### Two digits
+
+#### code
+
+```.py
+number = int(input())
+a= number%10
+b=number//10%10
+print(str(b) + " " + str(a))
+```
+
+#### test results
+
+### Swap digits
+
+#### code
+
+```.py
+number = int(input())
+a = number%10
+b = number//10
+print(str(a) + str(b))
+```
+#### test results
+
+### last two digits
+
+#### code
+
+```.py
+a=int(input())
+x=a%100
+print(x)
+```
+#### Tens digit
+
 ### Tens digit
 
 #### code
