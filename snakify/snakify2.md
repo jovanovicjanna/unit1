@@ -50,7 +50,7 @@ a=int(input())
 x=a%100
 print(x)
 ```
-#### Tens digit
+#### test results
 
 ### Tens digit
 
