@@ -29,6 +29,8 @@ print(str(b) + " " + str(a))
 
 #### test results
 
+![](twodigits.png)
+
 ### Swap digits
 
 #### code
@@ -41,6 +43,8 @@ print(str(a) + str(b))
 ```
 #### test results
 
+![](swapdigits.png)
+
 ### last two digits
 
 #### code
@@ -51,6 +55,8 @@ x=a%100
 print(x)
 ```
 #### test results
+
+![](lasttwodigits.png)
 
 ### Tens digit
 
@@ -95,6 +101,8 @@ print(str(j) + str(d) + str(s))
 ```
 #### test results
 
+![](reverse.png)
+
 ### merge two numbers
 
 #### code
@@ -110,6 +118,8 @@ print(str(d2) + str(d4) + str(d1) + str(d3))
 ```
 #### test results
 
+![](merge.png)
+
 ### cyclic rotation
 
 #### code
@@ -123,6 +133,8 @@ h=a//1000
 print(str(d) + str(j) + str(h) + str(s))
 ```
 #### test results
+
+![](cyclicrotation.png)
 
 ### fractional part
 
