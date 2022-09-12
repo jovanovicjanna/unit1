@@ -174,6 +174,8 @@ print((K-4)%7)
 
 #### test results
 
+![](dayoftheweek.png)
+
 ### digital clock
 
 #### code
@@ -186,6 +188,8 @@ print(hours,minutes)
 ```
 
 #### test results
+
+![](digitalclock.png)
 
 ### total cost
 
@@ -203,6 +207,8 @@ print(dollars, cents)
 
 #### test results
 
+![](totalcost.png)
+
 ### century
 
 #### code
@@ -212,6 +218,8 @@ year = int(input())
 print(ceil(year/100))
 ```
 #### test results
+
+![](century.png)
 
 ### snail
 
@@ -226,6 +234,8 @@ C = ceil((H-A)/(A-B)) + 1
 print(C)
 ```
 #### test results
+
+![](snail.png)
 
 ### clock face -1
 
@@ -242,6 +252,8 @@ print ((total_seconds) / 120)
 ```
 #### test results
 
+![](clockface1.png)
+
 ### clock face -2
 
 #### code
@@ -251,3 +263,5 @@ minutes = float(input())
 print(minutes % 30 *12)
 ```
 #### test results
+
+![](clockface2.png)
