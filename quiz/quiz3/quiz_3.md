@@ -1,5 +1,9 @@
 # Quiz 3
 
+## Float diagram
+
+![](quiz003.png)
+
 ## DNA
 
 ## Python code
