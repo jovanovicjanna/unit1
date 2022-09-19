@@ -4,7 +4,7 @@
 
 ## Float diagram
 
-
+![](quiz008.png)
 
 ## Python code
 
