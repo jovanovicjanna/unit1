@@ -2,6 +2,10 @@
 
 ## Numbers
 
+## Flow diagram
+
+![](quiz002.png)
+
 ## Python code
 ```.py
 #if either number from list a and b is 20 or the sum of either two numbers from each list is 20, print True
@@ -30,7 +34,6 @@ if output:
 else:
     print('false')
 ```
-## Flow diagram
 
 ## Results
 ![](quiz2.png)
