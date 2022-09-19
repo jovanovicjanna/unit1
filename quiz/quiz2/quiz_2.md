@@ -35,5 +35,5 @@ else:
     print('false')
 ```
 
-## Results
+## Test
 ![](quiz2.png)
