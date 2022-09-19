@@ -2,6 +2,9 @@
 
 # Add letters
 
+## Float diagram
+
+![](quiz006.png)
 ## Python code
 ```.py
 string=input('input your string: ')
