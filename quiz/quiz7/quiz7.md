@@ -29,4 +29,4 @@ for element in password:
 
 # Test
 
-![](quiz7.png)
+![](quiz007.png)
