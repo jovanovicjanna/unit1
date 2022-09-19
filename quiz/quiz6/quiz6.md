@@ -11,4 +11,4 @@ for letter in string:
 print(f'The sum of the ASCII code in your string is {sum}')
 ```
 # Tests:
-![](quiz_006.png)
+![](quiz6.png)
