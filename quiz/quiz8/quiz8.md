@@ -2,7 +2,7 @@
 
 # Allocating rooms
 
-## Code
+## Python code
 
 ```.py
 index=int(input("please input your room index from 1-100: "))
@@ -14,6 +14,6 @@ for floor in range(1,11,1):
             print(f'Floor{floor} Room{room}')
 ```
 
-## Tests:
+## Test
 
-![](quiz_008.png)
+![](quiz8.png)
