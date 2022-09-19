@@ -1,6 +1,10 @@
 # Quiz 7
 
-# Python code
+## Float diagram
+
+![](quiz007.png)
+
+## Python code
 
 ```.py
 import random
@@ -29,4 +33,4 @@ for element in password:
 
 # Test
 
-![](quiz007.png)
+![]()
