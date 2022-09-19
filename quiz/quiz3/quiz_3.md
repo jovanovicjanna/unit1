@@ -1,10 +1,10 @@
 # Quiz 3
 
+## DNA
+
 ## Float diagram
 
 ![](quiz003.png)
-
-## DNA
 
 ## Python code
 
@@ -25,5 +25,5 @@ for i in in_protein.upper():
 print(out_protein)
 ```
 
-## Result
+## Test
 ![](dna.png)
