@@ -22,3 +22,4 @@ print(out_protein)
 ```
 
 ## Result
+![](dna.png)
