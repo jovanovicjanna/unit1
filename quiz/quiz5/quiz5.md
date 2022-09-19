@@ -25,3 +25,4 @@ print(sum==num)
 
 ## Test
 
+![](quiz5.png)
