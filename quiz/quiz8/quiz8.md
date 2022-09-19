@@ -2,6 +2,10 @@
 
 # Allocating rooms
 
+## Float diagram
+
+
+
 ## Python code
 
 ```.py
