@@ -31,4 +31,4 @@ else:
 ## Flow diagram
 
 ## Results
-![]
+![](quiz2.png)
