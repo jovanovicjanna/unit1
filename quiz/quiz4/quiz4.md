@@ -27,6 +27,6 @@ else:
     print("you ran out of chances to enter an integer")
     exit()
  ```
-## Tests
+## Test
 ![](quiz4.png)
 
