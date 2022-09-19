@@ -4,6 +4,8 @@
 
 ## Float diagram
 
+![](quiz005.png)
+
 ## Python code
 ```.py
 num= input("please input an integer: ")
