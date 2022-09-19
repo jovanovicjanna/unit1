@@ -1,6 +1,11 @@
 # Quiz 4
 
-## Code
+## Flow diagram
+
+![](quiz004.1.png)
+![](quiz004.2.png)
+
+## Python code
 
 ```.py
 num= input('Please input a integer: ')
