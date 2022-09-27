@@ -11,4 +11,5 @@ if A==20 or (A+B)==20:
 else:
     print("False")
 ```
-
+## Test
+![](quiz2.png)
