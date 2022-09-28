@@ -21,4 +21,4 @@ if in_protein == "C":
 ```
 
 ## Test
-![](dna.png)
+![](quiz3.png)
