@@ -18,17 +18,22 @@ An example of the data stored is
 ## Proposed Solution
 
 Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a digital ledger for a client who is local trader. The digital ledger will about ———— and is constructed using the software python. It will take one week to make and will be evaluated according to the criteria listed bellow.
 
 ## What is LiteCoin?
 
+Litecoin is a cryptocurrency founded in 2011, two years after Bitcoin, by a former Google engineer named Charlie Lee.
+It shares similar features with Bitcoin but has a different algorithm. The cryptocurrency's goal is to become a medium for daily transactions.
+Litecoin has a faster transaction processing time compared to Bitcoin.
+
+McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved September 29, 2022, from https://www.investopedia.com/articles/investing/040515/what-litecoin-and-how-does-it-work.asp 
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The electronic ledger allows user to enter just if the password is corect. 
+5. The electronic ledger display 10 biggest transactions.
+6. The electronic ledger show transactions of last month.
 
 
