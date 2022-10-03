@@ -18,7 +18,7 @@ An example of the data stored is
 ## Proposed Solution
 
 Design statement:
-I will to design and make a digital ledger for a client who is local trader. The digital ledger will about ———— and is constructed using the software python. It will take one week to make and will be evaluated according to the criteria listed bellow.
+I will to design and make a digital ledger for a client who is local trader. The digital ledger will be about keeping track of cryptocurrency transactions and is constructed using the software Python. It will take one week to make and will be evaluated according to the criteria listed bellow.
 
 ## What is LiteCoin?
 
