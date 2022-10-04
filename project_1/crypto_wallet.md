@@ -20,6 +20,12 @@ An example of the data stored is
 Design statement:
 I will to design and make a digital ledger for a client who is local trader. The digital ledger will be about keeping track of cryptocurrency transactions and is constructed using the software Python. It will take one week to make and will be evaluated according to the criteria listed bellow.
 
+### Justifying the softwer selected
+I will be using python because it is easy to learn and use, codes can be easily written and executed much faster than other programming languages. Furthermore, Python is one of the most user-friendly programming languages since it has a simple syntax and is not overly complex, putting more of an emphasis on natural language.
+
+### Justifying the structure of the proposal solution
+I'll create a Python project in Pycharm using a First Screen python file to implement the digital ledger. Several functions that have already been defined in my library Python file will be called by this file. Programming is made simpler to manage and adjust when various functions are written individually. As a result, code will be simpler to read and more approachable.
+
 ## What is LiteCoin?
 
 Litecoin is a cryptocurrency founded in 2011, two years after Bitcoin, by a former Google engineer named Charlie Lee.
