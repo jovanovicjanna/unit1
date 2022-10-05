@@ -45,7 +45,6 @@ McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved 
 # Criterion C: Development
 ## Code
 '''.py
-import datetime
 def validate_int_input(msg:str)->int:
     number=input(msg)
     while not number.isdigit():
@@ -54,8 +53,10 @@ def validate_int_input(msg:str)->int:
 cs_red = "\33[0;31m"
 cs_cyan = "\33[0;36m"
 end_code = "\033[00m"
+'''
 
-# first thing that would appear, choosing between those two
+# first thing that would appear, choosing between those two options
+'''.py
 def register_or_login()->int:
     welcome_msg = "Welcome to your digital ledger".center(50, '*')
     prompt_msg = "Now please enter an option [1-2]"
@@ -72,15 +73,17 @@ def register_or_login()->int:
     while option < 1 or option > 2:
         option = validate_int_input(f"{cs_red}invalid option, {prompt_msg}{end_code}")
     return option
-
+'''
 # option 1 register
+'''.py
 def register (username:str,password:str):
     with open("db.csv", "w") as file:
         file.write(f"{username},{password} \n")
         registered= "Well done! You are registered. Now you can login."
         print(cs_cyan, registered, end_code)
-
+'''
 # option 2 login
+'''.py
 def login(username:str, password:str)->bool:
     with open("db.csv", "r") as file:
         register_data = file.read().strip()
@@ -91,7 +94,9 @@ def login(username:str, password:str)->bool:
             return False
         output = False
         return output
+'''
 # new options
+'''.py
 def my_wallet():
     login_msg = "Well done! You are logged in! Let's start."
     prompt_msg1 = "please enter an option [1-4]"
@@ -110,7 +115,9 @@ def my_wallet():
     while option1 < 1 or option1 > 4:
         option1 = validate_int_input(f"{cs_red}invalid option, {prompt_msg1}{end_code}")
         return option1
+'''
 # Basic description of cryptocurrency
+'''.py
 if option1==1:
     print(cs_cyan, "1. Basic description of cryptocurrency ", end_code)
     print("What is LiteCoin?")
@@ -121,7 +128,9 @@ if option1==1:
     to become a medium for daily transactions. Litecoin has a faster transaction
     processing time compared to Bitcoin.
     ''')
+ '''
 # Create a transaction
+'''.py
 def deposit(date:str, description:str, category:str, amount:str):
     '''
     db.csv
@@ -161,11 +170,7 @@ if option1==2:
     deposit(date=enter_date, description=enter_description, category=enter_category, amount=enter_amount)
     print({f"{cs_cyan} Withdrawal is successfully entered! {end_code}"})
 delete_transaction = input("Type (1) for entering transaction or (2) to quit:")
-# 10 biggest transactions
-with open("db.csv","r") as file:
-    for line in ("db.csv").readlines
-
-
-# 10 last transactions
 '''
+
+
 
