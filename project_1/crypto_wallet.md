@@ -56,7 +56,7 @@ end_code = "\033[00m"
 '''
 
 ## first thing that would appear when you enter the program
-'''.py
+```.py
 def register_or_login()->int:
     welcome_msg = "Welcome to your digital ledger".center(50, '*')
     prompt_msg = "Now please enter an option [1-2]"
@@ -64,7 +64,7 @@ def register_or_login()->int:
     content = "options"
     menu ='''1. Register
     2. Login
-    '''
+    '''.py
     print(cs_cyan, welcome_msg, end_code)
     print(content.center(50))
     print(menu)
@@ -73,9 +73,9 @@ def register_or_login()->int:
     while option < 1 or option > 2:
         option = validate_int_input(f"{cs_red}invalid option, {prompt_msg}{end_code}")
     return option
-    '''
+```
 ## option 1 register
-'''.py
+``` .py
 def login(username:str, password:str)->bool:
     with open("db.csv", "r") as file:
         register_data = file.read().strip()
@@ -86,7 +86,7 @@ def login(username:str, password:str)->bool:
             return False
         output = False
         return output
-'''
+```
 
 
 
