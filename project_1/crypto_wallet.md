@@ -1,5 +1,5 @@
 # Unit 1 project - Crypto Wallet
-![](22ROOSE-master768.gif)  
+![](cryptogif.gif)  
 <sub>Illustration for Glenn Harvey</sub>
 # Criteria A: Planning
 
