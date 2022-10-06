@@ -1,10 +1,12 @@
 ## Practice octobar 6
 ```.py
+def count_letter(msg:str, letter:str):
+    count=0
+    for i in range(len(msg)):
+        if msg[i]==letter:
+            count+=1
+    return count
 
-# login or register
-if option==1:
-   print(register(str(input("Username:")),str(input("Pasword:"))))
-   print(login(str(input("Ussername:")), str(input("Password:"))))
-if option==2:
-    print(login(str(input("Ussername:")), str(input("Password:"))))
+test1=count_letter("hello", "l")
+print(test1)
 ```
