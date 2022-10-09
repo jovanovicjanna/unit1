@@ -1,6 +1,6 @@
 # Unit 1 project - Crypto Wallet
 ![](ltc1.webp)  
-<sub>Illus</sub>
+<sub>Litecoin by Team Luno</sub>
 # Criterion A: Planning
 
 ## Problem definition
@@ -79,7 +79,12 @@ Fig 4. Flow diagram of the register or login function.
 | 12      | Meet with the client| Have a feedback about the program's present state. | 20min        | Oct 7                 | B         |
 | 13      | Final fix| Final changes based on the customer's feedback. | 2hrs        | Oct 9                 | C         |
 # Criterion C: Development
-
+## Techniques used:
+1. Functions
+2. For/While loops
+3. Input validation
+4. If statements
+5. 
 ## Code
 
 ## Main screen
@@ -275,5 +280,43 @@ def recent_transactions():
         # printing the last 5 items of the csv file (:number means counting backwards and 5t the number of items)
         print(data[-5:])
 ```
+## Register and login system
+```.py
+# register or login
+def register_or_login():
+    option = validate_int_input(" Enter an option: ")
+    while option < 1 or option > 2:
+        option = validate_int_input(f"{cs_red} Invalid option. Please enter an option [1-2]: {end_code}")
+    if option == 1:
+        uname = input(" Enter new username: ")
+        pwd = input(" Enter new password: ")
+        register(username=uname, password=pwd)
+    uname = input(" Enter username: ")
+    pwd = input(" Enter password: ")
+    result = login(username=uname, password=pwd)
+    if result == False:
+        print(f"{cs_red} You have entered an invalid username or password.{end_code}")
+        exit()
+
+# register
+def register(username: str, password: str):
+    with open("users.csv", "w") as file:
+        file.write(f"{username},{password} \n")
+        registered = "Well done! You are registered. Now you can login."
+        print(cs_green, registered, end_code)
+
+# login
+def login(username: str, password: str) -> bool:
+    output = False
+    with open("users.csv", "r") as file:
+        all_users=file.readlines()
+        for user in all_users:
+            register_data = user.strip()
+            register_data1 = register_data.split(",")
+            if username == register_data1[0] and password == register_data1[1]:
+                output = True
+    return output
+```
+Making a registration and login system 
 
 
