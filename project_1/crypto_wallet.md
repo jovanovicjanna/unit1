@@ -1,6 +1,6 @@
 # Unit 1 project - Crypto Wallet
 ![](litecoin.webp)  
-<sub>Illustration for Glenn Harvey</sub>
+<sub>Illus</sub>
 # Criterion A: Planning
 
 ## Problem definition
