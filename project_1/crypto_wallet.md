@@ -83,7 +83,7 @@ Fig 4. Flow diagram of the register or login function.
 ## Code
 
 ## Main screen
-'''.py
+```.py
 from my_library import *
 # welcome to your digital ledger
 welcome()
@@ -119,9 +119,11 @@ if option1==3:
 # 5 last transactions
 if option1==4:
     recent_transactions()
-'''
+```
 
 ## my library
+
+```.py
 import csv
 cs_red = "\33[0;31m"
 cs_green = "\33[0;32m"
@@ -272,6 +274,6 @@ def recent_transactions():
         data = list(csv.reader(f))
         # printing the last 5 items of the csv file (:number means counting backwards and 5t the number of items)
         print(data[-5:])
-'''
+```
 
 
