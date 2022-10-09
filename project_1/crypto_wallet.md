@@ -44,6 +44,7 @@ McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved 
 6. The electronic ledger show transactions of last month.
 # Criterion B: Design
 ## Design
+![](Screen%20Shot%202022-10-09%20at%2019.06.53.png)
 # Criterion C: Development
 ## Code
 ```.py
