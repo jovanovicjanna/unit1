@@ -170,11 +170,13 @@ Every option entered by user will need to follow certain requirements and will b
     print(f" The amount of the biggest transaction is {max_amount}.")
  ```
 This function will give my client an information about the amount of the biggest transaction made by reading db.csv file and comparing data in items of a list with index [3].
-# The lst 5 transactions
+# The last 5 transactions
+```.py
 def recent_transactions():
     with(open('db.csv', "r")) as f:
         data = list(csv.reader(f))
         print(data[-5:])
+ ```
 This function will provide my client an information of the five latest transactions entered by opening db.csv file and reversing items of te list.
        
 ## Video of the program
