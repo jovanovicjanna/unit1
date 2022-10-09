@@ -50,15 +50,15 @@ McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved 
 Fig 1. System diagram of this program
 
 ## Flow diagrams
-![](big.jpg)
+![](big.png)
 
 Fig 2. Flow diagram of the biggest transaction function.
 
-![](log.jpg)
+![](log.png)
 
 Fig 3. Flow diagram of the login function.
 
-![](reg.jpg)
+![](reg.png)
 
 Fig 4. Flow diagram of the register or login function.
 
