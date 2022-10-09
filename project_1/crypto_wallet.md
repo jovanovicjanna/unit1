@@ -47,6 +47,10 @@ McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved 
 ![](Screen%20Shot%202022-10-09%20at%2019.06.53.png)
 Fig 1. System diagram of this program
 ## Flow charts
+![](register_or_login.png)
+
+![](login.png)
+![](biggest_transaction.png)
 # Criterion C: Development
 ## Code
 ```.py
