@@ -43,8 +43,10 @@ McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved 
 5. The electronic ledger display 10 biggest transactions.
 6. The electronic ledger show transactions of last month.
 # Criterion B: Design
-## Design
+## System diagram
 ![](Screen%20Shot%202022-10-09%20at%2019.06.53.png)
+Fig 1. System diagram of this program
+## Flow charts
 # Criterion C: Development
 ## Code
 ```.py
