@@ -62,6 +62,15 @@ Fig 3. Flow diagram of the login function.
 
 Fig 4. Flow diagram of the register or login function.
 
+## Test plan
+| No. | Test type      | Tested function      | Test steps                                                                                                                                       | Expected result                                                                                                                                                                                                                                                                                                                                            |
+|-----|----------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Functional     | validate_int_input           | 1. use validate_int_input function 2. input a string 3. input a digit                    | 1. with a string error message will be displayed 2. with a digit program continues                                                                                                                                                                                                                                                                           |
+| 2   | Functional     | register()              | 1. use register function 2. input username and password                      | 1. userame and password are stored in database file 2. succes message will appear|
+| 3   | Functional     | login | 1. use login function 2. input different username/password than written in register function 3. input same username and password as written in register function e                                                                                        | 1. with a wrong username/password error message will be displayed and program will close 2. with a correct username and password program conitues and succes message will be displayed                                                                                                                                                                                                                                          |
+| 4   | Functional | transactions()|  | 1. use transactions function 2. choose between option 1(deposit) and 2(withdrawal) 3. input date, category, description and amount| 1. user will be able to enter transaction 2. information will be stored in database file
+| 5   | Non-functional | instructions       |  1. Run program  2. Check whether are messages clear and easy to understand and directions easy to follow.                                            | Directions are easy to follow  and messages are clear.                                                                                                                                                                                                                                  |
+| 6   | Non-functional | error  | 1. input wrong outcomes on options 2. check are error messages explicit and understandable                 | Error messages are simple and easy to understand.                                         |
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
@@ -78,6 +87,7 @@ Fig 4. Flow diagram of the register or login function.
 | 11      | Draw flow diagrams| Draw flow diagrams to have clear idea of functions' structure. | 1hr        | Oct 3                 | B        |
 | 12      | Meet with the client| Have a feedback about the program's present state. | 20min        | Oct 7                 | B         |
 | 13      | Final fix| Final changes based on the customer's feedback. | 2hrs        | Oct 9                 | C         |
+
 # Criterion C: Development
 ## Techniques used:
 1. Functions
