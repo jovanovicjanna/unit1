@@ -1,5 +1,5 @@
 # Unit 1 project - Crypto Wallet
-![](cryptogif.gif)  
+![](litecoin.webp)  
 <sub>Illustration for Glenn Harvey</sub>
 # Criterion A: Planning
 
