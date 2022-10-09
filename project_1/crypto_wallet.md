@@ -42,6 +42,8 @@ McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved 
 4. The electronic ledger allows user to enter just if the password is corect. 
 5. The electronic ledger display 10 biggest transactions.
 6. The electronic ledger show transactions of last month.
+# Criterion B: Design
+## Design
 # Criterion C: Development
 ## Code
 ```.py
