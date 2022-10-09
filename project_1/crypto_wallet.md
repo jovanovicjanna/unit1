@@ -1,5 +1,5 @@
 # Unit 1 project - Crypto Wallet
-![](litecoin.webp)  
+![](ltc1.webp)  
 <sub>Illus</sub>
 # Criterion A: Planning
 
