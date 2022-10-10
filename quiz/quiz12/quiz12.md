@@ -12,3 +12,5 @@ user_input = int(input("Enter a number between 1 and 9: " ))
 for i in mulTable(user_input):
     print(i)
 ```
+## Test
+![](12.png)
