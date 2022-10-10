@@ -1,4 +1,4 @@
-# Quiz 10: Create a function that produces the powers of ten from pico (10-12), to tera (1015) for a number provided as an input.
+# Quiz 10: Create a function that produces the powers of ten from pico, to tera for a number provided as an input.
 
 ## Code
 ```.py
@@ -17,3 +17,5 @@ out = powers_ten(quantity=1)
 print(out)
 ```
 ## Test
+![](Screen%20Shot%202022-10-10%20at%2018.51.35.png)
+
