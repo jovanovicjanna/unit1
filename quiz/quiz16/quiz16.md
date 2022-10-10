@@ -26,4 +26,6 @@ test4 = blackboxThree("Create a Function")
 print(test1, test2, test3, test4, sep="\n")
 ```
 ## Test
+![](16.1.png)
+## Flow chart
 ![](16.png)
