@@ -21,3 +21,7 @@ print(f"The number of open doors: {test1}")
 ```
 ## Test
 ![](15.png)
+## Flow chart
+![](15.1.png)
+
+![](15.2.png)
