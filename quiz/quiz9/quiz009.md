@@ -23,6 +23,8 @@ shift = shift % 26
 test = stringciphered(shift, user_input)
 print(test)
 ```
-## Flow chart
 ## Test
 ![](Screen%20Shot%202022-10-10%20at%2018.51.35.png)
+## Flow chart
+![](009.png)
+![](9.1.png)
