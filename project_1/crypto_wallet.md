@@ -86,7 +86,7 @@ Fig 4. Flow diagram of the register or login function.
 | 10      | Validate client's input for all option choices| Create a code that that would make sure that client's inputs follow certin requirements. | 1hr        | Oct 1                 | C         |
 | 11      | Draw flow diagrams| Draw flow diagrams to have clear idea of functions' structure. | 1hr        | Oct 3                 | B        |
 | 12      | Meet with the client| Have a feedback about the program's present state. | 20min        | Oct 7                 | B         |
-| 13      | Final fix| Final changes based on the customer's feedback. | 2hrs        | Oct 9                 | C         |
+| 13      | Final fix| Final changes based on the client's feedback. | 2hrs        | Oct 9                 | C         |
 
 # Criterion C: Development
 ## Techniques used:
