@@ -133,7 +133,7 @@ def login(username: str, password: str) -> bool:
                 output = True
     return output
 ```
-Making a registration system so that a client can open a Crypto Wallet is the first step in generating a digital ledger for that client. The client is given the option of logging in or registering (if that is the first time that he is entering the ledger), and in order to enter a digital ledger those two should match, othervise program is closing. That will provide protection of private data of my client.
+Making a registration system so that a client can open a Crypto Wallet is the first step in generating a digital ledger for that client. The client is given the option of logging in or registering (if that is the first time that he is entering the ledger), and in order to enter a digital ledger these two should match, othervise program is closing. That will provide protection of private data for my client.
 
 ## Main menu
 
@@ -157,7 +157,7 @@ while option1 < 1 or option1 > 4:
     option1 = validate_int_input(f"{cs_red} Invalid option. Please enter an option [1-4]: {end_code}")
 ```
 In order to allow my client to interact with the digital ledger I created main manu, which allows client to choose between different options.
-Every option entered by user will need to follow certain requirements and will be validated. (Eg. option has to be a digit and to be in a certain range of numbers)
+Every option entered by user will need to follow certain requirements and will be validated. (Eg. option has to be a digit and to be in a certain range of numbers).
 
  ## Biggest transaction
  ```.py
@@ -179,7 +179,7 @@ Every option entered by user will need to follow certain requirements and will b
             
     print(f" The amount of the biggest transaction is {max_amount}.")
  ```
-This function will give my client an information about the amount of the biggest transaction made by reading db.csv file and comparing data in items of a list with index [3].
+This function will give my client an information about the amount of the biggest transaction made by reading db.csv file and comparing data of items of a list with index [3].
 # The last 5 transactions
 ```.py
 def recent_transactions():
