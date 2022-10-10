@@ -40,8 +40,8 @@ McFarlane, G. (2022, April 14). What is Litecoin (LTC)? Investopedia. Retrieved 
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger allows user to enter just if the password is corect. 
-5. The electronic ledger display 10 biggest transactions.
-6. The electronic ledger show transactions of last month.
+5. The electronic ledger display the biggest transaction.
+6. The electronic ledger show 5 latest transactions entered.
 # Criterion B: Design
 ## System diagram
 
