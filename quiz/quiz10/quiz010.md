@@ -18,4 +18,6 @@ print(out)
 ```
 ## Test
 ![](Screen%20Shot%202022-10-10%20at%2019.22.08.png)
+## Flow chart
+![](010.png)
 
