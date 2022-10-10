@@ -14,3 +14,5 @@ for i in mulTable(user_input):
 ```
 ## Test
 ![](12.png)
+## Flow chart
+![](012.png)
