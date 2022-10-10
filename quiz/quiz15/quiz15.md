@@ -20,3 +20,4 @@ test1=open_doors(num_students=user_input)
 print(f"The number of open doors: {test1}")
 ```
 ## Test
+![](15.png)
