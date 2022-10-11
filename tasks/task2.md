@@ -1,6 +1,7 @@
 # EV calculator
 ## Code
-```
+
+```.py
 # EV_calculator
 from my_library import *
 
