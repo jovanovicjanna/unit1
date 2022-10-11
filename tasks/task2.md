@@ -106,9 +106,16 @@ date,charge,duration
 
 ## Test
 ![](evCalculator1.png)
+### option 1
+
 
 ![](evCalculator2.png)
+### option 2
+
 
 ![](evCalculator3.png)
+### option 3
+
 
 ![](evCalculator4.png)
+### option 4
