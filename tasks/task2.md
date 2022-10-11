@@ -1,6 +1,7 @@
 # EV calculator
 ## Code
 
+## Main
 ```.py
 # EV_calculator
 from my_library import *
@@ -80,4 +81,31 @@ if option  == 4:
             print(f"No.{index}: {log}", end="")
         index += 1
 ```
+## my library
+
+```.py
+def validate_int_input(msg:str)->int:
+    number=input(msg)
+    while not number.isdigit():
+        number = input( f'error, {msg}')
+    return int(number)
+
+cs_red = "\33[0;31m"
+cs_green = "\33[0;32m"
+cs_cyan = "\33[0;36m"
+end_code = "\033[00m"
+```
+## csv file
+```
+date,charge,duration
+12.9.22,8.878kWh,12:32:36
+15.9.22,3.533kWh,5:02:23
+17.9.22,6.828kWh,9:41:46
+18.9.22,5.425kWh,7:43:35
+```
+
 ## Test
+![](evCalculator1.png)
+![](evCalculator2.png)
+![](evCalculator3.png)
+![](evCalculator4.png)
