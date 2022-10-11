@@ -105,17 +105,15 @@ date,charge,duration
 ```
 
 ## Test
-![](evCalculator1.png)
+
 ### option 1
+![](evCalculator1.png)
 
-
-![](evCalculator2.png)
 ### option 2
+![](evCalculator2.png)
 
-
-![](evCalculator3.png)
 ### option 3
+![](evCalculator3.png)
 
-
-![](evCalculator4.png)
 ### option 4
+![](evCalculator4.png)
