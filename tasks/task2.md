@@ -42,13 +42,6 @@ if option == 1:
             total_kwh = float(kWh[0:5])
         i += 1
     print(f"{cs_cyan}Average time per kWh is {end_code}{cs_cyan}{int(total_time / total_kwh)} minutes.{end_code}")
-if option  == 4:
-    print(f"{cs_cyan}4. Showing all data{end_code}")
-    index = 0
-    for log in ev_logs:
-        if index>0:
-            print(f"No.{index}: {log}", end="")
-        index += 1
 
 #option 2 Total kWh used
 if option == 2:
@@ -77,7 +70,7 @@ if option == 3:
             time = int(time[0]) * 60 + int(time[1])
             total_time += time
         index += 1
-    print(f"{total_time // 60}{total_time % 60} minutes")
+    print(f"Total charge time is {total_time // 60}{total_time % 60} minutes.")
 # option 4 Show all data
 if option  == 4:
     print(f"{cs_cyan}4. Showing all data{end_code}")
